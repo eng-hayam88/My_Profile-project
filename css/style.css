@@ -1,0 +1,151 @@
+body{
+    background-image: linear-gradient(rgb(229,239,248)35%,#fff 30%);
+}
+.header{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.header .image img{
+    width: 100px;
+    border: 3px solid #004aff;
+    border-right: 3px dashed #004aff;
+    padding: 5px;
+    border-radius: 50%;
+}
+.profile-info{text-align: left;}
+.contact-info{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.contact-info .number ,.contact-info .mail{
+    background-color: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 7px 3px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #aaa;
+    border-radius: 5px;
+}
+.address{color: #ccc;}
+.experiance-info{margin-left: 30px;}
+.experiance,.resume-section{
+    background-color: #fff;
+    padding: 15px;
+}
+.precentage{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     border: 5px solid #004aff;
+    border-radius: 50%; 
+   border-color:  #004aff #eee #eee;
+    padding: 30px;
+    
+}
+.experiance button{
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: #004aff;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.profile-type{
+    background-color: #fff;
+    color: #004aff;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 12px 0;
+}
+.profile-type p{margin: 0;}
+
+.resume-img{
+    width: 80px;
+}
+.resume-icone i, .profile-content i
+,.overview-title i,.overview-details i{
+    background-color: #004aff;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.card-detail{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-left: 60px;
+}
+/* //////////////////////* */
+
+.profile-content,.overview{
+    background-color: #fff;
+    border: 1px solid#eee;
+    padding: 20px;
+   margin: 20px 0;
+}
+.overview .col-md-3{
+    border-right: 1px solid #aec6f8;
+}
+.card-detail .image{
+    padding-right: 20px;
+}
+.card-info p{
+    margin: 0;
+    color: #ccc;
+}
+/* //////////////////////////////////////////// */
+.overview-info{
+    background-color: #f3f7ff;
+    border: 1px solid #aec6f8;
+    border-radius: 7px;
+    margin: 10px 0;
+    text-align: left;
+    padding:10px 20px;
+}
+.overview-title,.overview-details,.text-education{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.overview .text{
+    width: 100%;
+    background-color: #fcfdff;
+    color: #ccc;
+    border: 1px dashed #aec6f8;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+.text-education{
+    background-color:#fcfdff; 
+    border: 1px solid #aec6f8;
+    padding: 20px;
+    
+}
+.edue-icone i{
+    color: red;
+}
+hr{
+   background: #fcfdff; 
+}
+@media screen and (max-width:768px){
+    .contact-info{
+        display: grid;
+        align-items: center;
+    justify-content: center; 
+}
+.profile-info{margin-left: 20px;}
+}
